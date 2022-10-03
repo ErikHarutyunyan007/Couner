@@ -1,0 +1,160 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body{
+ background-image: url(./wallpeaper/body.jpg);
+}
+.globalDiv{
+  background: rgb(0, 0, 0, .5);
+  height:400px;
+  width: 350px;
+  float: left;
+  border-radius: 20px;
+  border: 10px solid black;
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-top: 70px;
+  box-shadow: 0px 0px 50px rgb(105, 27, 27);
+  text-align: center;
+  font-size: 50px;
+  align-items: center; 
+  display: flex; 
+}
+span{
+  position: relative;
+  color: black;
+  margin-left:50%;
+  transform: translate(-50%);
+}
+.res{
+  background-color:black;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 140px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.add{
+  background-color:black;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 250px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.subtract{
+  background-color:black;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.subtract:hover{
+  color: orange;
+}
+.add:hover{
+  color: orange;
+}
+.res:hover{
+  color: orange;
+}
+.minNumber{
+  position: absolute;
+  background-color:rgb(42,40,62);;
+  border-radius: 10px;
+  border: 2px solid black;
+  top: 300px;
+  width: 120px;
+  height: 50px;
+  margin-top: 200px;
+  margin-left:-10px;
+  color: black;
+  font-size: 20px;
+}
+.minNumber::placeholder{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.maxNumber{
+  position: absolute;
+  background-color:rgb(42,40,62);
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 120px;
+  height: 50px;
+  margin-top: 484px;
+  margin-left:210px;
+  color: black;
+  font-size: 20px;
+}
+.maxNumber::placeholder{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.step{
+  position: absolute;
+  background-color:rgb(42,40,62);;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 60px;
+  height: 50px;
+  margin-top: 484px;
+  margin-left:130px;
+  color: black;
+  font-size: 20px;
+}
+.step::placeholder{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
